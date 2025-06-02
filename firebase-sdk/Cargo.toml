@@ -12,9 +12,9 @@ keywords = ["firebase", "sdk", "auth", "messaging", "firestore", "rust"]
 categories = ["api-bindings", "authentication", "web-programming", "database"]
 
 [dependencies]
-firebase-core = "0.1"
-firebase-auth = "0.1"
-firebase-messaging = "0.1"
-firebase-firestore = "0.1"
-firebase-storage = "0.1"
-firebase-realtime-db = "0.1"
+firebase-core = { path = "../crates/firebase-core" }
+firebase-auth = { path = "../crates/firebase-auth" }
+firebase-firestore = { path = "../crates/firebase-firestore" }
+firebase-messaging = { path = "../crates/firebase-messaging" }
+firebase-realtime-db = { path = "../crates/firebase-realtime-db" }
+firebase-storage = { path = "../crates/firebase-storage" }
