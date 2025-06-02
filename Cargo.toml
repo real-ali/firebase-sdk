@@ -1,0 +1,21 @@
+[package]
+name = "firebase-sdk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+firebase-core = { path = "../crates/firebase-core" }
+firebase-auth = { path = "../crates/firebase-auth" }
+firebase-firestore = { path = "../crates/firebase-firestore" }
+firebase-fcm = { path = "../crates/firebase-messaging" }
+
+[workspace]
+members = [
+    "firebase-sdk",
+    "crates/firebase-core",
+    "crates/firebase-auth",
+    "crates/firebase-firestore",
+    "crates/firebase-messaging",
+    "crates/firebase-storage",
+    "crates/firebase-realtime-db"
+]

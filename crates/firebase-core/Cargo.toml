@@ -1,0 +1,23 @@
+[package]
+name = "firebase-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sayed Ali Sina Hussaini <s.alisinahussaini313@gmail.com>"]
+description = "The core crate for Firebase SDK in Rust. Provides shared service account logic, token handling, and HTTP client config."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/real-ali/firebase-sdk"
+readme = "README.md"
+documentation = "https://docs.rs/firebase-core"
+keywords = ["firebase", "sdk", "core", "google", "service-account"]
+categories = ["authentication", "api-bindings", "web-programming", "config"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"
+reqwest = { version = "0.11", features = ["json", "gzip", "rustls-tls"] }
+jsonwebtoken = "9.2"
+chrono = { version = "0.4", features = ["serde"] }
+base64 = "0.22"
+thiserror = "1.0"
+tokio = { version = "1.37", features = ["rt-multi-thread", "macros"] }

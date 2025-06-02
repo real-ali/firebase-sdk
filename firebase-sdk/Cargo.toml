@@ -1,0 +1,20 @@
+[package]
+name = "firebase-sdk"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sayed Ali Sina Hussaini <s.alisinahussaini313@gmail.com>"]
+description = "A complete Firebase SDK in Rust, with modular support for Authentication, Messaging, Firestore, Storage, and Realtime Database."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/real-ali/firebase-sdk"
+readme = "README.md"
+documentation = "https://docs.rs/firebase-sdk"
+keywords = ["firebase", "sdk", "auth", "messaging", "firestore", "rust"]
+categories = ["api-bindings", "authentication", "web-programming", "database"]
+
+[dependencies]
+firebase-core = "0.1"
+firebase-auth = "0.1"
+firebase-messaging = "0.1"
+firebase-firestore = "0.1"
+firebase-storage = "0.1"
+firebase-realtime-db = "0.1"

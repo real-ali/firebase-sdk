@@ -1,0 +1,21 @@
+[package]
+name = "firebase-realtime-db"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sayed Ali Sina Hussaini <s.alisinahussaini313@gmail.com>"]
+description = "Async Rust SDK for Firebase Realtime Database with secure access and realtime updates."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/real-ali/firebase-sdk"
+readme = "README.md"
+documentation = "https://docs.rs/firebase-realtime-db"
+keywords = ["firebase", "realtime", "database", "rust", "async", "sdk"]
+categories = ["database", "api-bindings", "web-programming", "network-programming"]
+
+[dependencies]
+firebase-core = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json", "gzip", "rustls-tls"] }
+tokio = { version = "1.37", features = ["rt-multi-thread", "macros"] }
+futures = "0.3"
+thiserror = "1.0"
