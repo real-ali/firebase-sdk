@@ -25,15 +25,15 @@ firebase-sdk/
 
 ## 📦 Crates
 
-| Crate                                                                         | Description                              | Version |
-| ----------------------------------------------------------------------------- | ---------------------------------------- | ------- |
-| [`firebase-core`](https://crates.io/crates/firebase-core)                     | Shared internal logic & traits           | `0.1.x` |
-| [`firebase-authentication`](https://crates.io/crates/firebase-authentication) | Firebase Authentication API              | `0.1.x` |
-| [`firebase-firestore`](https://crates.io/crates/firebase-firestore)           | Firestore NoSQL DB                       | `0.1.x` |
-| [`firebase-realtime-db`](https://crates.io/crates/firebase-realtime-db)       | Realtime Database                        | `0.1.x` |
-| [`firebase-messaging`](https://crates.io/crates/firebase-messaging)           | Firebase Cloud Messaging (FCM)           | `0.1.x` |
-| [`firebase-store`](https://crates.io/crates/firebase-store)                   | Firebase Storage                         | `0.1.x` |
-| [`firebase-sdk`](https://crates.io/crates/firebase-sdk)                       | Unified SDK entry point (re-exports all) | `0.1.x` |
+| Crate                       | Description                                  | Version |
+|----------------------------|----------------------------------------------|---------|
+| [`firebase-core`](https://crates.io/crates/firebase-core) | Shared internal logic & traits             | `0.1.x` |
+| [`firebase-authentication`](https://crates.io/crates/firebase-authentication) | Firebase Authentication API                | `0.1.x` |
+| [`firebase-firestore`](https://crates.io/crates/firebase-firestore) | Firestore NoSQL DB                         | `0.1.x` |
+| [`firebase-realtime-db`](https://crates.io/crates/firebase-realtime-db) | Realtime Database                          | `0.1.x` |
+| [`firebase-messaging`](https://crates.io/crates/firebase-messaging) | Firebase Cloud Messaging (FCM)             | `0.1.x` |
+| [`firebase-store`](https://crates.io/crates/firebase-store) | Firebase Storage                           | `0.1.x` |
+| [`firebase-sdk`](https://crates.io/crates/firebase-sdk) | Unified SDK entry point (re-exports all)   | `0.1.x` |
 
 ---
 
@@ -76,11 +76,14 @@ Run tests:
 
 ```bash
 cargo test --workspace
+```
 
+
+---
 
 ## 🔐 License
 
-Dual-licensed under **MIT** or **Apache-2.0** — your choice.
+Dual-licensed under **MIT** or **Apache-2.0** — your choice.  
 © 2025 [Sayed Ali Sina Hussaini](mailto:s.alisinahussaini313@gmail.com)
 
 ---
@@ -93,4 +96,3 @@ Dual-licensed under **MIT** or **Apache-2.0** — your choice.
 ---
 
 > Rust + Firebase = ❤️ blazing-fast backend solutions.
-```
