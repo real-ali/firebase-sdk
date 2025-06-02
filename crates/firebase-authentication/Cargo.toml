@@ -7,7 +7,7 @@ description = "A Firebase Authentication SDK for Rust, supporting secure sign-in
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/real-ali/firebase-sdk"
 readme = "README.md"
-documentation = "https://docs.rs/firebase-auth"
+documentation = "https://docs.rs/firebase-authentication"
 keywords = ["firebase", "auth", "authentication", "jwt", "google"]
 categories = ["authentication", "api-bindings", "web-programming"]
 

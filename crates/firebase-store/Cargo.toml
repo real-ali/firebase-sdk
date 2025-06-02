@@ -1,5 +1,5 @@
 [package]
-name = "firebase-storage"
+name = "firebase-store"
 version = "0.1.0"
 edition = "2021"
 authors = ["Sayed Ali Sina Hussaini <s.alisinahussaini313@gmail.com>"]
@@ -7,7 +7,7 @@ description = "Async Rust SDK for Firebase Cloud Storage, enabling secure file u
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/real-ali/firebase-sdk"
 readme = "README.md"
-documentation = "https://docs.rs/firebase-storage"
+documentation = "https://docs.rs/firebase-store"
 keywords = ["firebase", "storage", "cloud", "files", "rust", "async"]
 categories = ["api-bindings", "network-programming", "web-programming"]
 

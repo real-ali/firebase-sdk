@@ -6,6 +6,6 @@ members = [
     "crates/firebase-authentication",
     "crates/firebase-firestore",
     "crates/firebase-messaging",
-    "crates/firebase-storage",
+    "crates/firebase-store",
     "crates/firebase-realtime-db"
 ]

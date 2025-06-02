@@ -17,4 +17,4 @@ firebase-authentication = { path = "../crates/firebase-authentication" }
 firebase-firestore = { path = "../crates/firebase-firestore" }
 firebase-messaging = { path = "../crates/firebase-messaging" }
 firebase-realtime-db = { path = "../crates/firebase-realtime-db" }
-firebase-storage = { path = "../crates/firebase-storage" }
+firebase-store = { path = "../crates/firebase-store" }
