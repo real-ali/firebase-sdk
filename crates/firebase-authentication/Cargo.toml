@@ -1,5 +1,5 @@
 [package]
-name = "firebase-auth"
+name = "firebase-authentication"
 version = "0.1.0"
 edition = "2021"
 authors = ["Sayed Ali Sina Hussaini <s.alisinahussaini313@gmail.com>"]

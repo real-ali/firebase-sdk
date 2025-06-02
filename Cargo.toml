@@ -3,7 +3,7 @@ resolver = "2"
 members = [
     "firebase-sdk",
     "crates/firebase-core",
-    "crates/firebase-auth",
+    "crates/firebase-authentication",
     "crates/firebase-firestore",
     "crates/firebase-messaging",
     "crates/firebase-storage",

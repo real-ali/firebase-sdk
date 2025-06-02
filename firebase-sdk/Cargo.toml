@@ -13,7 +13,7 @@ categories = ["api-bindings", "authentication", "web-programming", "database"]
 
 [dependencies]
 firebase-core = { path = "../crates/firebase-core" }
-firebase-auth = { path = "../crates/firebase-auth" }
+firebase-authentication = { path = "../crates/firebase-authentication" }
 firebase-firestore = { path = "../crates/firebase-firestore" }
 firebase-messaging = { path = "../crates/firebase-messaging" }
 firebase-realtime-db = { path = "../crates/firebase-realtime-db" }
