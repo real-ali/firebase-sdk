@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/real-ali/firebase-sdk"
 readme = "README.md"
 documentation = "https://docs.rs/firebase-realtime-db"
-keywords = ["firebase", "realtime", "database", "rust", "async", "sdk"]
+keywords = ["firebase", "realtime", "database", "async", "sdk"]
 categories = ["database", "api-bindings", "web-programming", "network-programming"]
 
 [dependencies]
