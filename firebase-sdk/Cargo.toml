@@ -17,4 +17,4 @@ firebase-authentication = "0.1"
 firebase-firestore = "0.1"
 firebase-messaging = "0.1"
 firebase-realtime-db = "0.1"
-firebase-store = "0.1"
+
