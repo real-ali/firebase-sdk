@@ -88,7 +88,7 @@ cargo test --workspace
 
 ## 🔐 License
 
-Dual-licensed under **MIT** or **Apache-2.0** — your choice.  
+Dual-licensed under **MIT**.  
 © 2025 [Sayed Ali Sina Hussaini](mailto:s.alisinahussaini313@gmail.com)
 
 ---
