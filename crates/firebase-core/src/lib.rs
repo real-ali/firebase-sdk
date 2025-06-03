@@ -1,14 +1,17 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+mod domain;
+mod errors;
+mod infrastructure;
+mod usecases;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+pub use domain::FirebaseApp;
+pub use domain::FirebaseToken;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub use errors::DomainError;
+
+pub use infrastructure::load_config;
+pub use infrastructure::FirebaseApi;
+pub use infrastructure::HttpClient;
+
+pub use usecases::get_token;
+pub use usecases::initialize_app;
+pub use usecases::refresh_token;
