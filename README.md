@@ -95,7 +95,7 @@ Dual-licensed under **MIT**.
 
 ## 🌍 Connect
 
-- GitHub: [@real-all](https://github.com/real-all)
+- GitHub: [@real-ali](https://github.com/real-ali)
 - Email: s.alisinahussaini313@gmail.com
 
 ---
