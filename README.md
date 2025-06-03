@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://firebase.google.com/static/downloads/brand-guidelines/SVG/logo-standard.svg" alt="Firebase Logo" width="400"/>
+</p>
+
+
 # 🔥 Firebase SDK for Rust
 
 A modular, complete **Firebase SDK written in Rust** — designed for performance, safety, and developer ergonomics.  
